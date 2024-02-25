@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "remeda": "^1.39.0"
+    "@types/bun": "^1.0.7",
+    "prettier": "^3.2.5",
+    "remeda": "^1.39.0",
+    "ts-morph": "^21.0.1"
   }
 }
