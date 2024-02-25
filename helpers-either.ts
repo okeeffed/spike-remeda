@@ -1,12 +1,12 @@
 import * as H from "./helpers";
-import { eitherify } from "./utilities";
+import { eitherify } from "@okeeffed/eitherify";
 
 export const validateUser = eitherify(H.validateUser);
 export const formatUserName = eitherify(H.formatUserName);
 export const updateUserId = eitherify(H.updateUserId);
 export const convertUserToUserRecord = eitherify(H.convertUserToUserRecord);
 export const validateUserRecordSearchableNameLength = eitherify(
-  H.validateUserRecordSearchableNameLength,
+  H.validateUserRecordSearchableNameLength
 );
 export const getSearchableName = eitherify(H.getSearchableName);
 export const toUpperCase = eitherify(H.toUpperCase);

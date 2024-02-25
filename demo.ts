@@ -11,7 +11,7 @@ import {
   uppercaseLastLetter,
   reverseString,
 } from "./helpers-either";
-import { wrap } from "./utilities";
+import { wrap } from "@okeeffed/eitherify";
 
 const flow = (user: User) =>
   R.pipe(

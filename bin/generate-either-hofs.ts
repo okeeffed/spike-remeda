@@ -37,7 +37,7 @@ exportedDeclarations.forEach((declarations, name) => {
 });
 
 let fileStr = `import * as H from "./helpers";
-import { eitherify } from "./utilities"
+import { eitherify } from "@okeeffed/eitherify";
 
 ${exportDecs.map((dec) => `export const ${dec} = eitherify(H.${dec});`).join("\n")}`;
 
